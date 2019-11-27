@@ -7,7 +7,7 @@ portable rust based websocket reverse shell
 - Update script: ip/domain, port, binary (cmd.exe, /bin/bash, etc)
 
 ```
-root@kali:/opt/rustwsrs# cargo build
+root@kali:/opt/rustrs# cargo build
     Finished dev [unoptimized + debuginfo] target(s) in 0.02s
 ```
 
