@@ -15,7 +15,6 @@ impl Handler for Client {
     }
 
     fn on_message(&mut self, msg: Message) -> Result<()> {
-        //println!("Got message: {}", msg);
         
         let output =  Command::new("/bin/bash")
                .arg("-c")
